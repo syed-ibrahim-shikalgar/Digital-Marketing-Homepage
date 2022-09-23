@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,800;1,900&family=Red+Rose:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0ch;
+    font-family: 'Poppins';
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 90px 0 90px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.grow-list {
+    margin-right: 35%;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.list-item1 {
+    color: #000;
+    margin-right: 35px;
+}
+
+.list-item1:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.list-item {
+    color: #C0C0C0;
+    margin-right: 35px;
+}
+
+.list-item:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.nav-button {
+    border: none;
+    border-radius: 10px;
+    background-color: #5955B3;
+    padding: 15px 25px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-text {
+    font-size: 50px;
+    margin: 110px 50% 0 110px;
+    color: #3F3262;
+}
+
+span {
+    color: #5955B3;
+}
+
+.right-text img {
+    right: 0;
+    position: absolute;
+    height: 70%;
+    margin-top: 25px;
+}
+
+.description {
+    margin: 20px 50% 0 110px;
+    color: #828282;
+}
+
+.btn {
+    padding: 15px 35px;
+    margin-left: 40px 50% 0 110px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5955B3;
+    font-size: 17px;
+    color: #fff;
+    margin: 40px 50% 0 110px;
+}
